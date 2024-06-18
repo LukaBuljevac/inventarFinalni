@@ -70,7 +70,7 @@ int main() {
         default:
             printf("Neispravan izbor. Molimo pokusajte ponovno.\n\n");
         }
-    } while (choice != 12);
+    } while (choice != 11);
 
     if (inventory != NULL) {
         free(inventory);
